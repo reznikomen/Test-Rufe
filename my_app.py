@@ -30,6 +30,7 @@ class MainWin(QWidget):
     def next_click(self):
         self.hide()
         self.tw = TestWin()
+        
 
 
 app = QApplication([])
